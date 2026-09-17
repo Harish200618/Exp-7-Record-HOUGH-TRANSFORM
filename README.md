@@ -1,4 +1,4 @@
-#  Lane Detection
+#  EXP 7-Lane Detection
 
 ##  Aim
 
@@ -57,6 +57,8 @@ plt.axis('off')
 
 ```
 <img width="1424" height="836" alt="download" src="https://github.com/user-attachments/assets/3f1e3288-1b90-4f9b-af3b-240f3d9c176e" />
+
+
 ### Canny Edge detector output
 ```
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -66,6 +68,7 @@ plt.axis('off')
 ```
 
 <img width="1606" height="462" alt="download" src="https://github.com/user-attachments/assets/03e759d0-cb51-4f4a-b3e0-d3f990beeca7" />
+
 
 ### Display the result of Hough transform
 ```
